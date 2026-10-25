@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nutricionista Mirella da Cal · Emagrecimento no Centro de Niterói</title>
+<meta name="description" content="Nutricionista Mirella da Cal, no Centro de Niterói. Emagrecimento, obesidade e plano alimentar personalizado, com atendimento presencial ou online.">
+<meta property="og:title" content="Nutricionista Mirella da Cal">
+<meta property="og:description" content="Melhorando a saúde e a autoestima. Atendimento presencial no Centro de Niterói ou online.">
+<meta property="og:image" content="img/mirella-2.jpg">
+<meta name="theme-color" content="#1e7f7c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23e8687a'/%3E%3Ctext x='32' y='42' font-family='Georgia' font-size='28' fill='white' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --coral:#e8687a; --coral-esc:#c94c60; --coral-claro:#fdeced; --menta:#8fe0df; --menta-claro:#e8f8f7;
+  --teal:#1e7f7c; --teal-esc:#155b59; --tinta:#2b2b33; --suave:#64646e; --raio:22px; --sombra:0 24px 48px -28px rgba(201,76,96,.45);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"DM Sans",system-ui,sans-serif;color:var(--tinta);background:#fff;line-height:1.65;font-size:17px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:min(1120px,100% - 40px);margin-inline:auto}
+h1,h2,h3{font-family:"Bodoni Moda",Georgia,serif;font-weight:500;line-height:1.12;color:var(--tinta)}
+h2{font-size:clamp(2rem,3.8vw,2.8rem)}
+h2 em,h1 em{font-style:italic;color:var(--coral)}
+.kicker{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.32em;text-transform:uppercase;color:var(--teal);margin-bottom:.8rem}
+.lead{color:var(--suave);font-size:1.07rem;max-width:58ch}
+.btn{display:inline-flex;align-items:center;gap:.6rem;padding:.95rem 1.6rem;border-radius:999px;font-weight:700;text-decoration:none;font-size:.97rem;transition:transform .2s,background .2s,color .2s}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-coral{background:var(--coral);color:#fff;box-shadow:0 14px 28px -14px rgba(201,76,96,.9)}
+.btn-coral:hover{background:var(--coral-esc);transform:translateY(-2px)}
+.btn-linha{border:1.5px solid var(--teal);color:var(--teal)}
+.btn-linha:hover{background:var(--teal);color:#fff}
+
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid #f3e3e5}
+.topo{display:flex;align-items:center;justify-content:space-between;height:80px;gap:16px}
+.marca img{height:58px;width:auto}
+nav{display:flex;gap:26px;align-items:center}
+nav a{text-decoration:none;font-weight:500;color:var(--suave);font-size:.95rem}
+nav a:hover{color:var(--coral)}
+nav .btn{padding:.65rem 1.2rem;font-size:.9rem}
+@media (max-width:900px){nav a:not(.btn){display:none}}
+@media (max-width:420px){nav .btn span{display:none}nav .btn{padding:.75rem}.marca img{height:48px}}
+
+/* hero */
+.hero{position:relative;overflow:hidden;padding:56px 0 0;background:linear-gradient(180deg,var(--coral-claro),#fff 85%)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}
+.hero-txt{padding-bottom:70px}
+.hero h1{font-size:clamp(2.5rem,5.4vw,4.2rem);margin-bottom:1.1rem}
+.hero .lead{margin-bottom:1.6rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:2rem;list-style:none}
+.chips li{background:#fff;border:1px solid #f4d6da;border-radius:999px;padding:.42rem .95rem;font-weight:700;font-size:.86rem;color:var(--coral-esc)}
+.chips li.m{border-color:#c9eeed;color:var(--teal)}
+.acoes{display:flex;flex-wrap:wrap;gap:12px}
+.foto-hero{position:relative;justify-self:center;width:min(440px,100%)}
+.foto-hero{margin-bottom:70px}
+.foto-hero img{position:relative;z-index:1;width:100%;height:auto;border-radius:220px 220px 26px 26px;border:8px solid #fff;box-shadow:var(--sombra)}
+.foto-hero .selo{position:absolute;z-index:2;left:-16px;bottom:40px;background:#fff;border-radius:16px;padding:.8rem 1rem;box-shadow:var(--sombra);display:flex;gap:.7rem;align-items:center}
+.selo strong{font-family:"Bodoni Moda",serif;font-size:1.9rem;color:var(--coral);line-height:1}
+.selo .est{color:#f4b400;letter-spacing:2px;font-size:.9rem}
+.selo small{display:block;color:var(--suave);font-size:.78rem;font-weight:700}
+.foto-hero .crn{position:absolute;z-index:2;right:0;top:28%;background:var(--teal);color:#fff;border-radius:999px;padding:.45rem .9rem;font-size:.78rem;font-weight:700}
+@media (max-width:900px){.hero{padding-top:30px}.hero-grid{grid-template-columns:1fr;gap:20px}.hero-txt{padding-bottom:20px}.foto-hero{order:2;width:min(340px,86%)}}
+
+section{padding:92px 0}
+.cab{text-align:center;max-width:700px;margin:0 auto 48px}
+.cab .lead{margin:.9rem auto 0}
+
+/* serviços */
+.servs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.serv{border-radius:var(--raio);padding:28px 24px;background:var(--coral-claro);transition:transform .25s,box-shadow .25s}
+.serv:nth-child(even){background:var(--menta-claro)}
+.serv:hover{transform:translateY(-4px);box-shadow:var(--sombra)}
+.serv .ico{width:54px;height:54px;border-radius:50%;background:#fff;display:grid;place-items:center;color:var(--coral);margin-bottom:16px;border:2px solid #f6b6be}
+.serv:nth-child(even) .ico{color:var(--teal);border-color:var(--menta)}
+.serv .ico svg{width:26px;height:26px}
+.serv h3{font-size:1.45rem;margin-bottom:.4rem}
+.serv p{color:var(--suave);font-size:.97rem}
+@media (max-width:900px){.servs{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.servs{grid-template-columns:1fr}}
+
+/* como funciona */
+.como{background:var(--menta-claro)}
+.como-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.como-foto{border-radius:200px 200px var(--raio) var(--raio);overflow:hidden;background:#fff;box-shadow:var(--sombra);aspect-ratio:3/4}
+.como-foto img{width:100%;height:100%;object-fit:cover;object-position:50% 20%}
+.passos{list-style:none;display:grid;gap:14px;margin:1.6rem 0 2rem;counter-reset:p}
+.passos li{display:flex;gap:16px;align-items:flex-start;background:#fff;border-radius:18px;padding:18px 20px}
+.passos li::before{counter-increment:p;content:counter(p);flex:none;width:40px;height:40px;border-radius:50%;background:var(--coral);color:#fff;font-family:"Bodoni Moda",serif;font-size:1.25rem;display:grid;place-items:center}
+.passos b{display:block;font-size:1.05rem}
+.passos span{color:var(--suave);font-size:.95rem}
+@media (max-width:900px){.como-grid{grid-template-columns:1fr;gap:40px}.como-foto{max-width:380px;width:100%;margin-inline:auto}}
+
+/* dicas */
+.dicas{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.dica{border:1px solid #f1dfe1;border-radius:var(--raio);padding:24px 22px;position:relative;overflow:hidden}
+.dica .n{font-family:"Bodoni Moda",serif;font-size:3rem;line-height:1;color:var(--menta)}
+.dica h3{font-size:1.25rem;margin:.5rem 0 .3rem}
+.dica p{color:var(--suave);font-size:.95rem}
+@media (max-width:900px){.dicas{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.dicas{grid-template-columns:1fr}}
+
+/* depoimentos */
+.deps-sec{background:var(--coral-claro)}
+.deps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.dep{background:#fff;border-radius:var(--raio);padding:26px;display:flex;flex-direction:column;box-shadow:0 16px 36px -28px rgba(201,76,96,.6)}
+.dep .est{color:#f4b400;letter-spacing:2px;font-size:.92rem}
+.dep p{margin:.7rem 0 1.2rem;flex:1}
+.dep footer{font-weight:700;font-size:.93rem;display:flex;gap:10px;align-items:center}
+.av{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--coral);color:#fff;font-weight:700}
+.dep:nth-child(even) .av{background:var(--teal)}
+.dep footer small{display:block;color:var(--suave);font-weight:500;font-size:.78rem}
+.nota-g{display:inline-flex;gap:10px;align-items:center;background:#fff;border-radius:999px;padding:.5rem 1.1rem;font-weight:700;margin-top:1rem}
+.nota-g .est{color:#f4b400;letter-spacing:2px}
+@media (max-width:900px){.deps{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.deps{grid-template-columns:1fr}}
+
+/* contato */
+.contato-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:44px}
+.info{display:grid;gap:12px;margin:1.6rem 0 2rem}
+.info>a,.info>div{display:flex;gap:14px;align-items:flex-start;text-decoration:none;background:var(--menta-claro);border-radius:16px;padding:14px 16px;transition:background .2s}
+.info>a:hover{background:#d6f3f2}
+.info svg{flex:none;width:22px;height:22px;color:var(--teal);margin-top:2px}
+.info b{display:block}
+.info span{color:var(--suave);font-size:.93rem}
+.horas{display:grid;grid-template-columns:auto auto;gap:2px 18px;font-size:.92rem;color:var(--suave);margin-top:4px}
+.mapa{border-radius:var(--raio);overflow:hidden;min-height:420px;background:var(--menta-claro);box-shadow:var(--sombra)}
+.mapa iframe{width:100%;height:100%;min-height:420px;border:0;display:block}
+@media (max-width:900px){.contato-grid{grid-template-columns:1fr}}
+
+.rodape{background:var(--teal-esc);color:rgba(255,255,255,.78);padding:28px 0;font-size:.88rem}
+.rodape .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.rodape img{height:52px;width:auto}
+.rodape a{color:#fff;font-weight:700;text-decoration:none}
+
+.zap{position:fixed;right:20px;bottom:20px;z-index:60;width:60px;height:60px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;box-shadow:0 14px 30px -10px rgba(0,0,0,.45);transition:transform .2s}
+.zap:hover{transform:scale(1.07)}
+.zap svg{width:32px;height:32px}
+
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.reveal.on{opacity:1;transform:none}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-zap" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.02c-.24.68-1.41 1.3-1.95 1.35-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.92-4.66-4.1-.13-.18-1.1-1.47-1.1-2.81s.7-2 .95-2.27c.25-.27.54-.34.72-.34h.52c.17 0 .4-.06.62.47.24.56.79 1.92.86 2.06.07.14.11.3.02.48-.09.18-.14.3-.27.46l-.41.48c-.14.14-.28.29-.12.56.16.27.71 1.17 1.52 1.89 1.04.93 1.92 1.22 2.19 1.35.27.14.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.66-.17 1.33Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M8 9a4 4 0 0 1 8 0l-3 3"/></g></symbol>
+  <symbol id="i-plate" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="13" cy="12" r="7"/><circle cx="13" cy="12" r="3.5"/><path d="M3 4v6M3 10v10M5 4v4a2 2 0 0 1-2 2"/></g></symbol>
+  <symbol id="i-pulse" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 20s-8-4.6-8-10.4A4.4 4.4 0 0 1 12 7a4.4 4.4 0 0 1 8 2.6C20 15.4 12 20 12 20Z M5 12h3l2-3 3 6 2-3h4"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 19c0-8 5-13 14-14-1 9-6 14-14 14Zm0 0 7-7"/></symbol>
+  <symbol id="i-screen" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></g></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M21 12a8 8 0 0 1-11.7 7.1L4 20.5l1.4-4.9A8 8 0 1 1 21 12Z"/></symbol>
+</svg>
+
+<header>
+  <div class="wrap topo">
+    <a class="marca" href="#inicio" aria-label="Mirella da Cal, Nutricionista — início"><img src="img/logo.png" alt="Mirella da Cal Nutricionista" width="387" height="248"></a>
+    <nav aria-label="Principal">
+      <a href="#atendimento">Atendimento</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#dicas">Dicas</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+      <a class="btn btn-coral" href="https://wa.me/5521993382871?text=Ol%C3%A1%2C%20Mirella!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg><span>Agendar</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-txt">
+        <span class="kicker reveal">Nutricionista · Centro de Niterói</span>
+        <h1 class="reveal d1">Melhorando a sua <em>saúde</em> e a sua <em>autoestima</em></h1>
+        <p class="lead reveal d2">Planejamento alimentar personalizado, explicado de um jeito simples e fácil de seguir, com acompanhamento de perto também depois da consulta.</p>
+        <ul class="chips reveal d2">
+          <li>Emagrecimento</li><li>Obesidade</li><li class="m">Presencial ou online</li>
+        </ul>
+        <div class="acoes reveal d3">
+          <a class="btn btn-coral" href="https://wa.me/5521993382871?text=Ol%C3%A1%2C%20Mirella!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg>Agende sua consulta</a>
+          <a class="btn btn-linha" href="#atendimento">Conheça o atendimento</a>
+        </div>
+      </div>
+      <div class="foto-hero reveal d1">
+        <img src="img/mirella-2.jpg" alt="Nutricionista Mirella da Cal sorrindo, sentada em uma poltrona" width="854" height="1280">
+        <span class="crn">CRN 22102560/P</span>
+        <div class="selo"><strong>5,0</strong><div><span class="est" aria-hidden="true">★★★★★</span><small>26 avaliações no Google</small></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="atendimento">
+    <div class="wrap">
+      <div class="cab">
+        <span class="kicker reveal">Atendimento</span>
+        <h2 class="reveal d1">Uma nutrição feita <em>para você</em></h2>
+        <p class="lead reveal d2">Cada plano é adaptado à sua rotina, aos seus gostos e aos seus objetivos.</p>
+      </div>
+      <div class="servs">
+        <div class="serv reveal"><div class="ico"><svg><use href="#i-scale"/></svg></div><h3>Emagrecimento</h3><p>Perda de peso de forma saudável, com um plano que cabe na sua rotina.</p></div>
+        <div class="serv reveal d1"><div class="ico"><svg><use href="#i-pulse"/></svg></div><h3>Obesidade</h3><p>Cuidado nutricional para melhorar a saúde e a qualidade de vida.</p></div>
+        <div class="serv reveal d2"><div class="ico"><svg><use href="#i-plate"/></svg></div><h3>Plano alimentar</h3><p>Dieta personalizada, adaptada à sua necessidade e fácil de seguir.</p></div>
+        <div class="serv reveal"><div class="ico"><svg><use href="#i-leaf"/></svg></div><h3>Mudança de hábitos</h3><p>Orientação para criar uma relação mais leve e saudável com a comida.</p></div>
+        <div class="serv reveal d1"><div class="ico"><svg><use href="#i-scale"/></svg></div><h3>Bioimpedância</h3><p>Avaliação da composição corporal para acompanhar a sua evolução.</p></div>
+        <div class="serv reveal d2"><div class="ico"><svg><use href="#i-screen"/></svg></div><h3>Presencial ou online</h3><p>Consultas no Centro de Niterói ou online, de onde você estiver.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="como-funciona" class="como">
+    <div class="wrap como-grid">
+      <div class="como-foto reveal"><img src="img/mirella.jpg" alt="Retrato da nutricionista Mirella da Cal" loading="lazy" width="854" height="1280"></div>
+      <div>
+        <span class="kicker reveal">Como funciona</span>
+        <h2 class="reveal d1">Do primeiro encontro ao <em>resultado</em></h2>
+        <ol class="passos">
+          <li class="reveal"><div><b>Consulta</b><span>Conversa sobre a sua rotina, os seus hábitos e os seus objetivos.</span></div></li>
+          <li class="reveal d1"><div><b>Plano personalizado</b><span>Prescrição detalhada e explicada de forma simples, pensada para a sua realidade.</span></div></li>
+          <li class="reveal d2"><div><b>Suporte pós-consulta</b><span>Contato depois da consulta para tirar dúvidas e ajustar o que for preciso.</span></div></li>
+        </ol>
+        <a class="btn btn-coral reveal d3" href="https://wa.me/5521993382871?text=Ol%C3%A1%2C%20Mirella!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg>Quero começar</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="dicas">
+    <div class="wrap">
+      <div class="cab">
+        <span class="kicker reveal">Dicas da nutri</span>
+        <h2 class="reveal d1">4 passos para <em>comer melhor</em></h2>
+      </div>
+      <div class="dicas">
+        <div class="dica reveal"><span class="n">01</span><h3>Planeje suas refeições</h3><p>Uma ótima estratégia é deixar as refeições da semana prontas.</p></div>
+        <div class="dica reveal d1"><span class="n">02</span><h3>Tenha lanches saudáveis</h3><p>Ter lanches prontos vai te fazer seguir a alimentação saudável.</p></div>
+        <div class="dica reveal d2"><span class="n">03</span><h3>Reduza os industrializados</h3><p>Refeições mais naturais são o melhor aliado da saúde.</p></div>
+        <div class="dica reveal d3"><span class="n">04</span><h3>Beba mais água</h3><p>Além de manter a hidratação do corpo, melhora o sistema digestivo.</p></div>
+      </div>
+      <p class="reveal" style="text-align:center;margin-top:32px"><a class="btn btn-linha" href="https://www.instagram.com/mirelladacalnutri/" target="_blank" rel="noopener"><svg><use href="#i-insta"/></svg>Mais dicas no @mirelladacalnutri</a></p>
+    </div>
+  </section>
+
+  <section id="depoimentos" class="deps-sec">
+    <div class="wrap">
+      <div class="cab">
+        <span class="kicker reveal">Depoimentos</span>
+        <h2 class="reveal d1">Quem já se consultou, <em>recomenda</em></h2>
+        <span class="nota-g reveal d2">5,0 <span class="est" aria-hidden="true">★★★★★</span> · 26 avaliações no Google</span>
+      </div>
+      <div class="deps">
+        <article class="dep reveal"><span class="est" aria-label="5 estrelas">★★★★★</span><p>“Dr. Mirella é uma profissional gentil e acolhedora. Possui nítido conhecimento atualizado, o que me deu bastante segurança. As prescrições enviadas foram bem detalhadas e manteve contato pós consulta.”</p><footer><span class="av">M</span><span>Matheus Vidal<small>Google</small></span></footer></article>
+        <article class="dep reveal d1"><span class="est" aria-label="5 estrelas">★★★★★</span><p>“Participei de um projeto para perda de peso e foi muito bom, consegui reduzir 7 kg de forma saudável em 2 meses. Super recomendo.”</p><footer><span class="av">B</span><span>Beto Souza<small>Google</small></span></footer></article>
+        <article class="dep reveal d2"><span class="est" aria-label="5 estrelas">★★★★★</span><p>“Excelente profissional! Adaptou a dieta do melhor jeito possível. Tive ótimos resultados. Recomendo demais.”</p><footer><span class="av">C</span><span>Caio Teixeira<small>Google</small></span></footer></article>
+        <article class="dep reveal"><span class="est" aria-label="5 estrelas">★★★★★</span><p>“Atendimento impecável, atenciosa e muito profissional. Me deu um mega suporte pós consulta também. Indico pra todo mundo!”</p><footer><span class="av">S</span><span>Sthefany Cotrim<small>Google</small></span></footer></article>
+        <article class="dep reveal d1"><span class="est" aria-label="5 estrelas">★★★★★</span><p>“Excelente, me explicou tudo de uma forma simples e passou uma dieta fácil de ser seguida.”</p><footer><span class="av">P</span><span>Pedro Bastos<small>Google</small></span></footer></article>
+        <article class="dep reveal d2"><span class="est" aria-label="5 estrelas">★★★★★</span><p>“Atendimento perfeito, planejamento bem personalizado. Indico para todos.”</p><footer><span class="av">C</span><span>Clara Ribas<small>Google</small></span></footer></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="wrap contato-grid">
+      <div>
+        <span class="kicker reveal">Contato</span>
+        <h2 class="reveal d1">Agende sua <em>consulta</em></h2>
+        <p class="lead reveal d2" style="margin-top:.8rem">Atendimento presencial no Centro de Niterói ou online. Chame no WhatsApp para marcar.</p>
+        <div class="info">
+          <a class="reveal" href="https://wa.me/5521993382871?text=Ol%C3%A1%2C%20Mirella!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg><div><b>WhatsApp</b><span>(21) 99338-2871</span></div></a>
+          <a class="reveal d1" href="https://www.google.com/maps/search/?api=1&query=Nutricionista+Mirella+Da+Cal+Rua+Quinze+de+Novembro+106+Niter%C3%B3i" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg><div><b>Endereço</b><span>Plaza Rink · R. Quinze de Novembro, 106 – Sala 501<br>Centro, Niterói – RJ, 24020-125</span></div></a>
+          <div class="reveal d2"><svg><use href="#i-clock"/></svg><div><b>Horários</b><div class="horas"><span>Seg a Sex</span><span>8h às 18h</span><span>Sáb e Dom</span><span>Fechado</span></div></div></div>
+          <a class="reveal d3" href="https://www.instagram.com/mirelladacalnutri/" target="_blank" rel="noopener"><svg><use href="#i-insta"/></svg><div><b>Instagram</b><span>@mirelladacalnutri</span></div></a>
+        </div>
+        <a class="btn btn-coral reveal" href="https://wa.me/5521993382871?text=Ol%C3%A1%2C%20Mirella!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg>Chamar no WhatsApp</a>
+      </div>
+      <div class="mapa reveal d1">
+        <iframe title="Mapa: Nutricionista Mirella da Cal, Plaza Rink, Centro de Niterói" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Nutricionista+Mirella+Da+Cal,+Rua+Quinze+de+Novembro,+106,+Niter%C3%B3i&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <img src="img/logo-branco.png" alt="Mirella da Cal Nutricionista" width="387" height="248">
+    <span>© <span id="ano">2026</span> Mirella da Cal · Nutricionista · CRN 22102560/P</span>
+    <span>Site por <a href="https://firmiano.com.br" target="_blank" rel="noopener">Firmiano</a></span>
+  </div>
+</footer>
+
+<a class="zap" href="https://wa.me/5521993382871?text=Ol%C3%A1%2C%20Mirella!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" aria-label="Conversar no WhatsApp"><svg><use href="#i-zap"/></svg></a>
+
+<script>
+document.getElementById('ano').textContent=new Date().getFullYear();
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('on')});return;}
+  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}})},{rootMargin:'0px 0px -8% 0px',threshold:.08});
+  els.forEach(function(e){io.observe(e)});
+})();
+</script>
+</body>
+</html>
